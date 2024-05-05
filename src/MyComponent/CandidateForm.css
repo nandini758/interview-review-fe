@@ -1,0 +1,81 @@
+.form-container {
+  max-width: 400px;
+  width: 50%;
+  position: fixed;
+  top: 80px; /* Adjust top position as needed */
+  right: 20px; /* Adjust right position as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.add-button {
+  position: fixed;
+  top: 10px; /* Adjust top position as needed */
+  /* right: 500px;  */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left:60em ;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-select {
+  appearance: none; 
+  background-color: #fff;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 30%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.add-button:hover {
+  background-color: #0056b3;
+}
